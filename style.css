@@ -40,7 +40,7 @@ body{
     justify-content: space-between;
 }
 .toggle i{
-    color: white;
+    color: red(255, 255, 255);
     font-size: 16px;
 }
 #change:checked ~.toggle i{
@@ -53,4 +53,24 @@ body{
   .test{
     font-style: italic;
   }
-time ::-ms-backdrop
+  body {
+    background-color: lightsalmon;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  p {
+    border: 2px solid rgb(230, 176, 176);
+    padding: 30px;
+  }
+
+
+
+  
